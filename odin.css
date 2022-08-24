@@ -1,0 +1,131 @@
+*{
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 140px;
+    background-color: #1F2937;
+    padding-bottom: 120px;
+}
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.links, p{
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.information{
+   display: flex;
+   background-color: #1F2937;
+   justify-content: space-between;
+   padding: 10px 140px;
+   padding-bottom: 100px;
+}
+.pic{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.signup{
+    background-color: #3882F6;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+h1{
+    margin: 0;
+}
+
+.random_container{
+    padding-top: 50px;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-color: white;
+    gap: 25px;
+}
+
+.image1, .image2, .image3, .image4{
+    height:200px;
+    width: 200px;
+    background-color: white;
+    border: solid blue 3px;
+    border-radius: 15px;
+}
+.placeholder{
+    background-color: white;
+}
+
+.randominfo{
+    background-color: white;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.random-title{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.image-container{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 30px;
+    margin: none;
+}
+
+.subtext{
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    width: 155px;
+}
